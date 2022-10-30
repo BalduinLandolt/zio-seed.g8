@@ -8,4 +8,4 @@ project/plugins/project/
 .metals
 .vscode
 
-/project/
+metals.sbt
