@@ -4,5 +4,5 @@ ThisBuild / scalaVersion := "$scala$"
 
 lazy val root = (project in file(".")).
   settings(
-    name := "zio-seed.g8..$if(scala3.truthy)$blah$endif$"
+    name := "zio-seed.g8..$if(scala3.truthy)$ maven(org.scala-lang, scala3-library, stable) $endif$"
   )
