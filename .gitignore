@@ -3,9 +3,20 @@ boot/
 lib_managed/
 src_managed/
 project/plugins/project/
+project/boot/
 
+dist/*
+
+.history
+.cache
+.lib
+
+.DS_Store
+
+.bsp
 .bloop
 .metals
 .vscode
 
 metals.sbt
+*/metals.sbt
